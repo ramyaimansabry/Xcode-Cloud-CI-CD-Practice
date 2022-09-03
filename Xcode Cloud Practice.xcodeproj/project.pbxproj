@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40222AA0680DA72FC6CE120 /* Pods_Xcode_Cloud_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898B8D0C6E427F54C327E902 /* Pods_Xcode_Cloud_Practice.framework */; };
+		AC389160E95D58C01740006E /* Pods_Xcode_Cloud_Practice_Xcode_Cloud_PracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1CFCD3137EF5EB6DB8E001 /* Pods_Xcode_Cloud_Practice_Xcode_Cloud_PracticeUITests.framework */; };
+		BBAEF079257FBD90DA4FF9AC /* Pods_Xcode_Cloud_PracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF53EEEB0D9C851D6809394 /* Pods_Xcode_Cloud_PracticeTests.framework */; };
 		DCA88A5B28C3E51C00680E29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA88A5A28C3E51C00680E29 /* AppDelegate.swift */; };
 		DCA88A5D28C3E51C00680E29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA88A5C28C3E51C00680E29 /* SceneDelegate.swift */; };
 		DCA88A5F28C3E51C00680E29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA88A5E28C3E51C00680E29 /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		DCA88A7228C3E51F00680E29 /* Xcode_Cloud_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA88A7128C3E51F00680E29 /* Xcode_Cloud_PracticeTests.swift */; };
 		DCA88A7C28C3E51F00680E29 /* Xcode_Cloud_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA88A7B28C3E51F00680E29 /* Xcode_Cloud_PracticeUITests.swift */; };
 		DCA88A7E28C3E51F00680E29 /* Xcode_Cloud_PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA88A7D28C3E51F00680E29 /* Xcode_Cloud_PracticeUITestsLaunchTests.swift */; };
+		DCAE3D4728C412040076CEB5 /* ci_post_clone.sh in Resources */ = {isa = PBXBuildFile; fileRef = DCAE3D4628C412040076CEB5 /* ci_post_clone.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BC41D39FCA594BECF6BE9C2 /* Pods-Xcode Cloud PracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xcode Cloud PracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-Xcode Cloud PracticeTests/Pods-Xcode Cloud PracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C1CFCD3137EF5EB6DB8E001 /* Pods_Xcode_Cloud_Practice_Xcode_Cloud_PracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xcode_Cloud_Practice_Xcode_Cloud_PracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E6DEB67E9959160B30B080 /* Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests.release.xcconfig"; path = "Target Support Files/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		898B8D0C6E427F54C327E902 /* Pods_Xcode_Cloud_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xcode_Cloud_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF53EEEB0D9C851D6809394 /* Pods_Xcode_Cloud_PracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xcode_Cloud_PracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15BE7F8919C70AAC5CA69AA /* Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B854780E9ADC358FF700BFD3 /* Pods-Xcode Cloud Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xcode Cloud Practice.release.xcconfig"; path = "Target Support Files/Pods-Xcode Cloud Practice/Pods-Xcode Cloud Practice.release.xcconfig"; sourceTree = "<group>"; };
+		D5F964B0C64E019ED69F82A5 /* Pods-Xcode Cloud PracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xcode Cloud PracticeTests.release.xcconfig"; path = "Target Support Files/Pods-Xcode Cloud PracticeTests/Pods-Xcode Cloud PracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC722CC0C61B760C8AEE85E0 /* Pods-Xcode Cloud Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xcode Cloud Practice.debug.xcconfig"; path = "Target Support Files/Pods-Xcode Cloud Practice/Pods-Xcode Cloud Practice.debug.xcconfig"; sourceTree = "<group>"; };
 		DCA88A5728C3E51C00680E29 /* Xcode Cloud Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode Cloud Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA88A5A28C3E51C00680E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCA88A5C28C3E51C00680E29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		DCA88A7728C3E51F00680E29 /* Xcode Cloud PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode Cloud PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA88A7B28C3E51F00680E29 /* Xcode_Cloud_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_Cloud_PracticeUITests.swift; sourceTree = "<group>"; };
 		DCA88A7D28C3E51F00680E29 /* Xcode_Cloud_PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_Cloud_PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCAE3D4628C412040076CEB5 /* ci_post_clone.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40222AA0680DA72FC6CE120 /* Pods_Xcode_Cloud_Practice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBAEF079257FBD90DA4FF9AC /* Pods_Xcode_Cloud_PracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC389160E95D58C01740006E /* Pods_Xcode_Cloud_Practice_Xcode_Cloud_PracticeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31F00E89DE62A74935FF55E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				898B8D0C6E427F54C327E902 /* Pods_Xcode_Cloud_Practice.framework */,
+				2C1CFCD3137EF5EB6DB8E001 /* Pods_Xcode_Cloud_Practice_Xcode_Cloud_PracticeUITests.framework */,
+				8FF53EEEB0D9C851D6809394 /* Pods_Xcode_Cloud_PracticeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2146C2F9DEDCFED7B466186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC722CC0C61B760C8AEE85E0 /* Pods-Xcode Cloud Practice.debug.xcconfig */,
+				B854780E9ADC358FF700BFD3 /* Pods-Xcode Cloud Practice.release.xcconfig */,
+				A15BE7F8919C70AAC5CA69AA /* Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests.debug.xcconfig */,
+				45E6DEB67E9959160B30B080 /* Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests.release.xcconfig */,
+				2BC41D39FCA594BECF6BE9C2 /* Pods-Xcode Cloud PracticeTests.debug.xcconfig */,
+				D5F964B0C64E019ED69F82A5 /* Pods-Xcode Cloud PracticeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DCA88A4E28C3E51C00680E29 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				DCA88A7028C3E51F00680E29 /* Xcode Cloud PracticeTests */,
 				DCA88A7A28C3E51F00680E29 /* Xcode Cloud PracticeUITests */,
 				DCA88A5828C3E51C00680E29 /* Products */,
+				C2146C2F9DEDCFED7B466186 /* Pods */,
+				31F00E89DE62A74935FF55E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +141,7 @@
 		DCA88A5928C3E51C00680E29 /* Xcode Cloud Practice */ = {
 			isa = PBXGroup;
 			children = (
+				DCAE3D4528C412040076CEB5 /* ci_scripts */,
 				DCA88A5A28C3E51C00680E29 /* AppDelegate.swift */,
 				DCA88A5C28C3E51C00680E29 /* SceneDelegate.swift */,
 				DCA88A5E28C3E51C00680E29 /* ViewController.swift */,
@@ -127,6 +170,14 @@
 			path = "Xcode Cloud PracticeUITests";
 			sourceTree = "<group>";
 		};
+		DCAE3D4528C412040076CEB5 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				DCAE3D4628C412040076CEB5 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCA88A8128C3E51F00680E29 /* Build configuration list for PBXNativeTarget "Xcode Cloud Practice" */;
 			buildPhases = (
+				DD598C68BD5C73D33D3B204B /* [CP] Check Pods Manifest.lock */,
 				DCA88A5328C3E51C00680E29 /* Sources */,
 				DCA88A5428C3E51C00680E29 /* Frameworks */,
 				DCA88A5528C3E51C00680E29 /* Resources */,
+				92DA9465B0CC6697FF0EA46E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCA88A8428C3E51F00680E29 /* Build configuration list for PBXNativeTarget "Xcode Cloud PracticeTests" */;
 			buildPhases = (
+				586DDA4DE55BE11AD88ED6EA /* [CP] Check Pods Manifest.lock */,
 				DCA88A6928C3E51F00680E29 /* Sources */,
 				DCA88A6A28C3E51F00680E29 /* Frameworks */,
 				DCA88A6B28C3E51F00680E29 /* Resources */,
@@ -169,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCA88A8728C3E51F00680E29 /* Build configuration list for PBXNativeTarget "Xcode Cloud PracticeUITests" */;
 			buildPhases = (
+				556E66E61F72B8D81B017BF8 /* [CP] Check Pods Manifest.lock */,
 				DCA88A7328C3E51F00680E29 /* Sources */,
 				DCA88A7428C3E51F00680E29 /* Frameworks */,
 				DCA88A7528C3E51F00680E29 /* Resources */,
+				22F0516DBF4D28093FE4AAFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +289,7 @@
 			files = (
 				DCA88A6728C3E51F00680E29 /* LaunchScreen.storyboard in Resources */,
 				DCA88A6428C3E51F00680E29 /* Assets.xcassets in Resources */,
+				DCAE3D4728C412040076CEB5 /* ci_post_clone.sh in Resources */,
 				DCA88A6228C3E51C00680E29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F0516DBF4D28093FE4AAFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		556E66E61F72B8D81B017BF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		586DDA4DE55BE11AD88ED6EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Xcode Cloud PracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92DA9465B0CC6697FF0EA46E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xcode Cloud Practice/Pods-Xcode Cloud Practice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xcode Cloud Practice/Pods-Xcode Cloud Practice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xcode Cloud Practice/Pods-Xcode Cloud Practice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD598C68BD5C73D33D3B204B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Xcode Cloud Practice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCA88A5328C3E51C00680E29 /* Sources */ = {
@@ -432,6 +592,7 @@
 		};
 		DCA88A8228C3E51F00680E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC722CC0C61B760C8AEE85E0 /* Pods-Xcode Cloud Practice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +624,7 @@
 		};
 		DCA88A8328C3E51F00680E29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B854780E9ADC358FF700BFD3 /* Pods-Xcode Cloud Practice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +656,7 @@
 		};
 		DCA88A8528C3E51F00680E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC41D39FCA594BECF6BE9C2 /* Pods-Xcode Cloud PracticeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +677,7 @@
 		};
 		DCA88A8628C3E51F00680E29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F964B0C64E019ED69F82A5 /* Pods-Xcode Cloud PracticeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +698,7 @@
 		};
 		DCA88A8828C3E51F00680E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15BE7F8919C70AAC5CA69AA /* Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +717,7 @@
 		};
 		DCA88A8928C3E51F00680E29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E6DEB67E9959160B30B080 /* Pods-Xcode Cloud Practice-Xcode Cloud PracticeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
