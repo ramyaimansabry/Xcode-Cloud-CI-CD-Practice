@@ -1,11 +1,13 @@
 
 <p align="center" width="100%">
     <img width="33%" src="Screenshots/logo.png">
-</p>
+
 
 # Xcode Cloud CI/CD
 
 CI/CD practice with xcode cloud.
+
+</p>
 
     
 ## WorkFlows
