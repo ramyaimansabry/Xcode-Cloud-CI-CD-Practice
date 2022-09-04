@@ -1,9 +1,7 @@
-<div align="center">
 
-
-<img src="Screenshots/logo.png" width="80">
-
-<br />
+<p align="left" width="100%">
+    <img width="33%" src="Screenshots/logo.png">
+</p>
 
 # Xcode Cloud CI/CD
 
